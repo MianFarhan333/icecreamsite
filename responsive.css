@@ -1,0 +1,149 @@
+@media (max-width:1200px) {
+
+    .nav-cont,
+    .cont-block,
+    .sec-1cont,
+    .sec-2cont,
+    .sec-3cont,
+    .sec-4cont,
+    .footer-cont {
+        width: 1000px;
+    }
+}
+
+@media (max-width:1000px) {
+
+    .nav-cont,
+    .cont-block,
+    .sec-1cont,
+    .sec-2cont,
+    .sec-3cont,
+    .sec-4cont,
+    .footer-cont {
+        width: 800px;
+    }
+
+    .ul-list,
+    .login-div {
+        display: none;
+    }
+
+    .icon-div {
+        margin-left: 150px;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .nav-cont,
+    .cont-block,
+    .sec-1cont,
+    .sec-2cont,
+    .sec-3cont,
+    .sec-4cont,
+    .footer-cont {
+        width: 700px;
+    }
+
+    .cont-block1,
+    .cont-block2 {
+        width: 60%;
+    }
+
+    .cont-h2 {
+        width: 400px;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .cont-block,
+    .icecream-div,
+    .service-block,
+    .footer-cont,
+    .adress-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec-1cont {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont-block1,
+    .cont-block2,
+    .sec-1block1,
+    .sec-1block2,
+    .footer-block1,
+    .footer-block2,.letter-block,
+    .adress-block {
+        width: 100%;
+    }
+
+    .cont-block,.footer-cont {
+        width: 600px;
+    }
+
+    .icecream-block {
+        margin-top: 30px;
+        width: 80%;
+    }
+    .service-box{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .sec-3h4{
+        width: 250px;
+    }
+}
+
+@media (max-width:700px) {
+
+    .cont-block,
+    .sec-1cont,
+    .footer-cont {
+        width: 500px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .cont-block,
+    .sec-1cont,
+    .footer-cont {
+        width: 400px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .cont-block,
+    .sec-1cont,.footer-cont {
+        width: 300px;
+    }
+
+    .cont-h2 {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .head-div {
+        height: max-content;
+    }
+
+    .sec-2h1 {
+        font-size: 30px;
+    }
+    .Email-inp{
+        width: 200px;
+    }
+    .subscribe-btn{
+        width: 100px;
+    }
+
+}
