@@ -305,6 +305,7 @@ li:hover {
     width: 350px;
     height: 450px;
     /* border: 1px solid black; */
+    position: relative;
 }
 
 .icecream-box {
@@ -341,6 +342,15 @@ li:hover {
     align-items: center;
     margin-top: -30px;
     background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+     transform: translateY(20px);
+}
+.icecream-block:hover .cart-circle{
+    opacity: 1;
+    visibility: visible;
+     transform: translateY(0);
 }
 
 .cart-btn {
